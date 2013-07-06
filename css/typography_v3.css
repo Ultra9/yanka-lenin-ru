@@ -147,6 +147,12 @@ img.img-left
 	margin-right: 20px;
 }
 
+img.img-right
+{
+	float: right;
+	margin-left: 20px;
+}
+
 .list-center 
 {
 	text-align: center;
