@@ -161,7 +161,7 @@ img.img-right
 .wrapper
 {
 	min-height: 100%;
-	margin-bottom: -90px;
+	margin-bottom: -105px;
 }
 
 * html .wrapper
@@ -171,7 +171,7 @@ img.img-right
 
 .wrapper-inner
 {
-	padding: 0 0 90px;
+	padding: 0 0 105px;
 }
 
 .content 
@@ -188,7 +188,7 @@ img.img-right
 	color: white;
 	background-color: black;
 	overflow: hidden;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 .footer p 
@@ -217,6 +217,11 @@ img.img-right
 	margin: 15px 0;
 }
 
+.header-inner p
+{
+	margin: 15px 0;
+}
+
 .signature
 {
 	text-align: right;
@@ -241,4 +246,73 @@ img.img-right
 blockquote p.poesy
 {
 	line-height: 2;
+}
+
+.mainpage-menu ul
+{
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.mainpage-menu ul li
+{
+	margin: 0 0 1.5em 0;
+}
+
+.mainpage-menu-1
+{
+	float:         left;
+	width:         145px;
+	padding-right: 25px;
+}
+
+.mainpage-menu-2
+{
+	float:        left;
+	width:        145px;
+	padding-left: 25px;
+}
+
+.mainpage-menu-2 ul
+{
+	text-align: right;
+}
+
+.mainpage-menu-middle
+{
+	float:   left;
+	width:   580px;
+}
+
+.mainpage-menu-middle img
+{
+	margin: 0 0 30px;
+}
+
+.separator
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.mainpage-services
+{
+	list-style: none;
+	padding-left: 0;
+	font-weight: bold;
+}
+
+.mainpage-services li
+{
+	width: 290px;
+	margin-right: 25px;
+	float: left;
+	text-align: center;
+}
+
+.mainpage-services li.last
+{
+	margin-right: 0;
 }
