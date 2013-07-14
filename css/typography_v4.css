@@ -56,7 +56,7 @@ a
 ul, ol
 {
 	margin: 1em 0;
-	padding-left: 20px;
+	padding-left: 2em;
 }
 
 ul ul, ol ol, ul ol, ol ul
@@ -315,4 +315,15 @@ blockquote p.poesy
 .mainpage-services li.last
 {
 	margin-right: 0;
+}
+
+/*pre
+{
+	font-size: 0.95em;
+	margin-left: 1.2em;
+}*/
+
+.accords
+{
+	color: red;
 }
