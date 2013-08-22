@@ -1,2 +1,4 @@
+DirectoryIndex index.htm
+Options +Includes
 AddType text/html .htm
 AddOutputFilter INCLUDES .htm
