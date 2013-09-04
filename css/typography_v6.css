@@ -317,13 +317,134 @@ blockquote p.poesy
 	margin-right: 0;
 }
 
-/*pre
-{
-	font-size: 0.95em;
-	margin-left: 1.2em;
-}*/
-
 .accords
 {
 	color: red;
+}
+
+.spoiler-head
+{
+	text-align: left;
+}
+
+.spoiler-head:hover
+{
+	cursor: pointer;
+}
+
+.section
+{
+	border:      none;
+	/*font-family: trebuchet ms;*/
+}
+
+.section span
+{
+	border:  1px solid #FFF;
+	display: block;
+	float:   left;
+	width:   45px;
+}
+
+.section span a
+{
+	background-color: #EFEFEF;
+	color:            #000;
+	display:          block;
+	font-size:        1.7em;
+	padding:          9px 6px;
+	text-decoration:  none;
+}
+
+.section span a:hover,
+.section span a:focus,
+.section span a:active
+{
+	outline: none;
+}
+
+.section span.current a
+{
+	background-color: pink;
+}
+
+.section ul.tabs
+{
+	float:         none;
+	padding:       0;
+	margin-bottom: 0;
+}
+
+.section ul.tabs li
+{
+	border:           1px solid #D1D8DF;
+	border-bottom:    none;
+	display:          inline-block;
+	float:            left;
+	margin:           10px 5px 0 0;
+	padding:          10px 20px;
+	text-align:       center;
+	width:            auto;
+	height:           30px;
+	font-weight:      bold;
+	background-color: #EFEFEF;
+	color:            #9F9F9F;
+	line-height:      30px;
+}
+
+.section ul.tabs li:hover
+{
+	cursor: pointer;
+}
+
+.section ul.tabs li.current
+{
+	background-color: #FFF;
+	margin-bottom:    -1px;
+	height:           31px;
+	color:            red;
+}
+
+.block.visible, .box.visible
+{
+	display: block;
+}
+
+.box
+{
+	display:     none;
+	overflow:    hidden;
+	width:       1000px;
+	border-top:  1px solid #D1D8DF;
+	padding-top: 25px;
+}
+
+.sticky-block
+{
+	margin: 10px 15px 0 10px;
+	width:  240px;
+}
+
+.block
+{
+	display: none;
+}
+
+.fixed
+{
+	position: fixed;
+	top:      0px;
+}
+
+.text
+{
+	float: right;
+	width: 720px;
+}
+
+.sticky-block, .text
+{
+	display:        inline-block;
+	overflow:       hidden;
+	vertical-align: top;
 }
