@@ -20,25 +20,25 @@ h1, h2, h3, h4, h5, h6
 
 h1
 {
-	font-size: 1.6em;
+	font-size: 2em;
 	margin: 1.4em 0 0.7em;
 }
 
 h2
 {
-	font-size: 1.4em;
+	font-size: 1.7em;
 	margin: 0.9em 0;
 }
 
 h3
 {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin: 1.1em 0;
 }
 
 h4, h5, h6
 {
-	font-size: 1em;
+	font-size: 1.1em;
 	margin: 1.3em 0;
 }
 
@@ -299,6 +299,7 @@ blockquote p.poesy
 
 .mainpage-services
 {
+	margin-top: 3em;
 	list-style: none;
 	padding-left: 0;
 	font-weight: bold;
@@ -307,6 +308,7 @@ blockquote p.poesy
 .mainpage-services li
 {
 	width: 290px;
+	margin: 0;
 	margin-right: 25px;
 	float: left;
 	text-align: center;
@@ -320,6 +322,14 @@ blockquote p.poesy
 .accords
 {
 	color: red;
+}
+
+h2.news-header
+{
+	font-size: 1.4em;
+	margin-top: 1.4em;
+	color: red;
+	text-align: left;
 }
 
 .spoiler-head
