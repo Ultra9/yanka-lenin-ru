@@ -66,7 +66,7 @@ ul ul, ol ol, ul ol, ol ul
 
 ul li, ol li
 {
-	margin: 0.4em 0;
+	margin: 0.6em 0;
 }
 
 blockquote
@@ -139,6 +139,11 @@ abbr[title]
 {
 	border-bottom: 1px dotted #999;
 	cursor: help;
+}
+
+a img
+{
+	border: 0;
 }
 
 img.img-left 
