@@ -9,6 +9,7 @@ body
 	line-height: 1.3;
 	font-size: 15px;
 	min-width: 960px;
+	font-family: 'PT Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -71,7 +72,6 @@ ul li, ol li
 
 blockquote
 {
-	font-size: 0.95em;
 	border-left: 0.3em solid #ccc;
 	margin: 1em 0;
 	padding: 0 0 0 1.2em;
@@ -91,7 +91,7 @@ blockquote cite:before
 
 blockquote cite
 {
-	font-size: 0.85em;
+	font-size: 0.9em;
 	color: #666;
 	font-style: normal;
 }
@@ -198,11 +198,9 @@ img.img-right
 
 .header 
 {
-	font-size: 0.95em;
-	color: red;
 	background-color: black;
 }
-.header-inner 
+.header-inner
 {
 	padding: 0 20px 0;
 	width: 920px;
@@ -211,14 +209,28 @@ img.img-right
 	text-align: center;
 }
 
+.breadcrumbs
+{
+	color: #333;
+	background-color: #eee;
+}
+.breadcrumbs-inner
+{
+	padding: 0 20px 0;
+	width: 920px;
+	overflow: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.breadcrumbs-inner p
+{
+	margin: 0.6em 0;
+}
+
 .header-inner img
 {
 	display: block;
-	margin: 15px 0;
-}
-
-.header-inner p
-{
 	margin: 15px 0;
 }
 
@@ -226,7 +238,6 @@ img.img-right
 {
 	text-align: right;
 	font-style: italic;
-	font-size: 0.95em;
 	margin-top: 2em;
 	color: #555;
 }
@@ -234,7 +245,6 @@ img.img-right
 .note
 {
 	font-style: italic;
-	font-size: 0.95em;
 	color: red;
 }
 
@@ -258,7 +268,7 @@ blockquote p.poesy
 
 .mainpage-menu ul li
 {
-	margin: 0 0 1.5em 0;
+	margin: 0 0 1.2em 0;
 }
 
 .mainpage-menu-1
