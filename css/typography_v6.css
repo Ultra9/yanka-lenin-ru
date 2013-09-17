@@ -53,7 +53,9 @@ a
 {
 	color: red;
 }
-
+a:focus{
+	outline:none;
+}
 ul, ol
 {
 	margin: 1em 0;
@@ -467,4 +469,17 @@ h2.news-header
 	display:        inline-block;
 	overflow:       hidden;
 	vertical-align: top;
+}
+.foto{
+    margin: 0 auto;
+    width: 820px;
+}
+.foto a{
+	
+}
+.foto a img{
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 1px 2px black;
+    margin: 5px;
+    width: 150px;
 }
