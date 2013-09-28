@@ -470,22 +470,18 @@ h2.news-header
 	overflow:       hidden;
 	vertical-align: top;
 }
-
-.foto
-{
-	margin: 0 auto;
-	width:  820px;
+.foto{
+    margin: 0 auto;
+	overflow:hidden;
 }
 
 .foto a
 {
 
 }
-
-.foto a img
-{
-	border-radius: 7px;
-	box-shadow:    0 1px 2px black;
-	margin:        5px;
-	width:         150px;
+.foto a img{
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 1px 2px black;
+    margin: 10px;
+    width: 160px;
 }
