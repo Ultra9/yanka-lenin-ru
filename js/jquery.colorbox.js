@@ -1,7 +1,7 @@
 /*!
-	Colorbox v1.4.29 - 2013-09-10
+	Colorbox v1.4.29 — 2013-09-10
 	jQuery lightbox and modal window plugin
-	(c) 2013 Jack Moore - http://www.jacklmoore.com/colorbox
+	(c) 2013 Jack Moore — http://www.jacklmoore.com/colorbox
 	license: http://www.opensource.org/licenses/mit-license.php
 */
 (function ($, document, window) {
@@ -339,7 +339,7 @@
 				// Check direct calls to Colorbox.
 				if (index === -1) {
 					$related = $related.add(element);
-					index = $related.length - 1;
+					index = $related.length — 1;
 				}
 			}
 			
@@ -374,8 +374,8 @@
 				$content.css({width:'', height:''}).append($loaded);
 
 				// Cache values needed for size calculations
-				interfaceHeight = $topBorder.height() + $bottomBorder.height() + $content.outerHeight(true) - $content.height();
-				interfaceWidth = $leftBorder.width() + $rightBorder.width() + $content.outerWidth(true) - $content.width();
+				interfaceHeight = $topBorder.height() + $bottomBorder.height() + $content.outerHeight(true) — $content.height();
+				interfaceWidth = $leftBorder.width() + $rightBorder.width() + $content.outerWidth(true) — $content.width();
 				loadedHeight = $loaded.outerHeight(true);
 				loadedWidth = $loaded.outerWidth(true);
 
@@ -606,19 +606,19 @@
 
 		// keeps the top and left positions within the browser's viewport.
 		if (settings.right !== false) {
-			left += Math.max($window.width() - settings.w - loadedWidth - interfaceWidth - setSize(settings.right, 'x'), 0);
+			left += Math.max($window.width() — settings.w — loadedWidth — interfaceWidth — setSize(settings.right, 'x'), 0);
 		} else if (settings.left !== false) {
 			left += setSize(settings.left, 'x');
 		} else {
-			left += Math.round(Math.max($window.width() - settings.w - loadedWidth - interfaceWidth, 0) / 2);
+			left += Math.round(Math.max($window.width() — settings.w — loadedWidth — interfaceWidth, 0) / 2);
 		}
 		
 		if (settings.bottom !== false) {
-			top += Math.max(winheight() - settings.h - loadedHeight - interfaceHeight - setSize(settings.bottom, 'y'), 0);
+			top += Math.max(winheight() — settings.h — loadedHeight — interfaceHeight — setSize(settings.bottom, 'y'), 0);
 		} else if (settings.top !== false) {
 			top += setSize(settings.top, 'y');
 		} else {
-			top += Math.round(Math.max(winheight() - settings.h - loadedHeight - interfaceHeight, 0) / 2);
+			top += Math.round(Math.max(winheight() — settings.h — loadedHeight — interfaceHeight, 0) / 2);
 		}
 
 		$box.css({top: offset.top, left: offset.left, visibility:'visible'});
@@ -629,8 +629,8 @@
 		$wrap[0].style.width = $wrap[0].style.height = "9999px";
 		
 		function modalDimensions() {
-			$topBorder[0].style.width = $bottomBorder[0].style.width = $content[0].style.width = (parseInt($box[0].style.width,10) - interfaceWidth)+'px';
-			$content[0].style.height = $leftBorder[0].style.height = $rightBorder[0].style.height = (parseInt($box[0].style.height,10) - interfaceHeight)+'px';
+			$topBorder[0].style.width = $bottomBorder[0].style.width = $content[0].style.width = (parseInt($box[0].style.width,10) — interfaceWidth)+'px';
+			$content[0].style.height = $leftBorder[0].style.height = $rightBorder[0].style.height = (parseInt($box[0].style.height,10) — interfaceHeight)+'px';
 		}
 
 		css = {width: settings.w + loadedWidth + interfaceWidth, height: settings.h + loadedHeight + interfaceHeight, top: top, left: left};
@@ -685,7 +685,7 @@
 			options = options || {};
 			
 			if (options.width) {
-				settings.w = setSize(options.width, 'x') - loadedWidth - interfaceWidth;
+				settings.w = setSize(options.width, 'x') — loadedWidth — interfaceWidth;
 			}
 
 			if (options.innerWidth) {
@@ -695,7 +695,7 @@
 			$loaded.css({width: settings.w});
 			
 			if (options.height) {
-				settings.h = setSize(options.height, 'y') - loadedHeight - interfaceHeight;
+				settings.h = setSize(options.height, 'y') — loadedHeight — interfaceHeight;
 			}
 
 			if (options.innerHeight) {
@@ -783,7 +783,7 @@
 					$current.html(settings.current.replace('{current}', index + 1).replace('{total}', total)).show();
 				}
 				
-				$next[(settings.loop || index < total - 1) ? "show" : "hide"]().html(settings.next);
+				$next[(settings.loop || index < total — 1) ? "show" : "hide"]().html(settings.next);
 				$prev[(settings.loop || index) ? "show" : "hide"]().html(settings.previous);
 				
 				slideshow();
@@ -886,11 +886,11 @@
 		trigger(event_load, settings.onLoad);
 		
 		settings.h = settings.height ?
-				setSize(settings.height, 'y') - loadedHeight - interfaceHeight :
+				setSize(settings.height, 'y') — loadedHeight — interfaceHeight :
 				settings.innerHeight && setSize(settings.innerHeight, 'y');
 		
 		settings.w = settings.width ?
-				setSize(settings.width, 'x') - loadedWidth - interfaceWidth :
+				setSize(settings.width, 'x') — loadedWidth — interfaceWidth :
 				settings.innerWidth && setSize(settings.innerWidth, 'x');
 		
 		// Sets the minimum dimensions for use in image scaling
@@ -900,11 +900,11 @@
 		// Re-evaluate the minimum width and height based on maxWidth and maxHeight values.
 		// If the width or height exceed the maxWidth or maxHeight, use the maximum values instead.
 		if (settings.maxWidth) {
-			settings.mw = setSize(settings.maxWidth, 'x') - loadedWidth - interfaceWidth;
+			settings.mw = setSize(settings.maxWidth, 'x') — loadedWidth — interfaceWidth;
 			settings.mw = settings.w && settings.w < settings.mw ? settings.w : settings.mw;
 		}
 		if (settings.maxHeight) {
-			settings.mh = setSize(settings.maxHeight, 'y') - loadedHeight - interfaceHeight;
+			settings.mh = setSize(settings.maxHeight, 'y') — loadedHeight — interfaceHeight;
 			settings.mh = settings.h && settings.h < settings.mh ? settings.h : settings.mh;
 		}
 		
@@ -962,17 +962,17 @@
 						photo.width -= photo.width * percent;
 					};
 					if (settings.mw && photo.width > settings.mw) {
-						percent = (photo.width - settings.mw) / photo.width;
+						percent = (photo.width — settings.mw) / photo.width;
 						setResize();
 					}
 					if (settings.mh && photo.height > settings.mh) {
-						percent = (photo.height - settings.mh) / photo.height;
+						percent = (photo.height — settings.mh) / photo.height;
 						setResize();
 					}
 				}
 				
 				if (settings.h) {
-					photo.style.marginTop = Math.max(settings.mh - photo.height, 0) / 2 + 'px';
+					photo.style.marginTop = Math.max(settings.mh — photo.height, 0) / 2 + 'px';
 				}
 				
 				if ($related[1] && (settings.loop || $related[index + 1])) {
