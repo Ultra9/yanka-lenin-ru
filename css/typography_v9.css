@@ -490,3 +490,12 @@ h2.news-header
     margin: 10px;
     width: 160px;
 }
+
+.figure
+{
+	padding: 0 20px;
+	margin-bottom: 1em;
+	border-left: 6px solid #FF831F;
+	background-color: #FFDCBF;
+	overflow: auto;
+}
