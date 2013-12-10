@@ -14,6 +14,12 @@ Redirect 301 /remix.htm /covers.htm
 Redirect 301 /memory/memory.htm /tribute.htm
 Redirect 301 /posled/posled.htm /other-music.htm
 
+Redirect 301 /perevod/bulgar.htm /translations/bulgar.htm
+Redirect 301 /perevod/kryzeliu.htm /translations/kryzeliu.htm
+Redirect 301 /perevod/nachhause.htm /translations/nachhause.htm
+Redirect 301 /perevod/nachhause1.htm /translations/nachhause1.htm
+Redirect 301 /perevod/verstand.htm /translations/verstand.htm
+
 AddDefaultCharset windows-1251
 
 DirectoryIndex index.htm
