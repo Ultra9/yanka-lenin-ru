@@ -20,6 +20,9 @@ Redirect 301 /perevod/nachhause.htm /translations/nachhause.htm
 Redirect 301 /perevod/nachhause1.htm /translations/nachhause1.htm
 Redirect 301 /perevod/verstand.htm /translations/verstand.htm
 
+RedirectMatch 301 ^/album/accord/acc(\d{1,2})\.htm$ /accords/acc$1.htm
+Redirect 301 /album/accord/termer.htm /accords/termer.htm
+
 AddDefaultCharset windows-1251
 
 DirectoryIndex index.htm
