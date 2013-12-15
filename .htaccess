@@ -1,3 +1,30 @@
+Redirect 301 /biograf.htm /biography.htm
+Redirect 301 /discog.htm /discography.htm
+Redirect 301 /foto/foto.htm /photo.htm
+Redirect 301 /stat.htm /articles.htm
+Redirect 301 /direct.htm /direct-speech.htm
+Redirect 301 /album/accord/accord.htm /accords.htm
+Redirect 301 /nota/nota.htm /notes.htm
+Redirect 301 /stihi/stihi.htm /poetry.htm
+Redirect 301 /risunki/risunki.htm /drawings.htm
+Redirect 301 /knigi/knigi.htm /books.htm
+Redirect 301 /recen.htm /reviews.htm
+Redirect 301 /perevod/perevod.htm /translations.htm
+Redirect 301 /remix.htm /covers.htm
+Redirect 301 /memory/memory.htm /tribute.htm
+Redirect 301 /posled/posled.htm /other-music.htm
+
+Redirect 301 /perevod/bulgar.htm /translations/bulgar.htm
+Redirect 301 /perevod/kryzeliu.htm /translations/kryzeliu.htm
+Redirect 301 /perevod/nachhause.htm /translations/nachhause.htm
+Redirect 301 /perevod/nachhause1.htm /translations/nachhause1.htm
+Redirect 301 /perevod/verstand.htm /translations/verstand.htm
+
+RedirectMatch 301 ^/album/accord/acc(\d{1,2})\.htm$ /accords/acc$1.htm
+Redirect 301 /album/accord/termer.htm /accords/termer.htm
+
+AddDefaultCharset windows-1251
+
 DirectoryIndex index.htm
 Options +Includes
 AddType text/html .htm

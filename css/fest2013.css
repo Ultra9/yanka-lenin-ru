@@ -1,0 +1,164 @@
+html, 
+body {
+	height:100%;
+}
+
+body{ 
+	margin:0 auto;
+	background:#fff;	
+}
+
+body, 
+td{
+ 	color: #000000; 
+	font-family: Arial, Helvetica, Tahoma, Verdana,sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+
+table, 
+td{
+	border-collapse:collapse;
+	border:0;
+}
+
+
+input, textarea, select{
+	border:1px solid #b4b4b4;
+}
+
+a:active, 
+a:link, 
+a:visited { 
+	color:#000;
+	text-decoration:underline; 
+}
+
+a:hover {  
+	color:#999;
+	text-decoration:underline;
+}
+
+img{
+	border:0;
+}
+
+h1{
+	font-size:16px; 
+	margin: 0 0 10px;
+}
+
+h2{
+	font-size:13px; 
+}
+
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+	background:url(/img/fest2013/bg1.jpg) 50% 0 no-repeat;
+	min-height:1166px;
+	@height:1166px;
+}
+
+.bottom
+{
+    width:1000px;
+    margin:0 auto;
+    background:url(/img/fest2013/line.png) 0 0 repeat-y;
+}
+
+.center{
+	padding-top:825px;
+	clear:both;
+	overflow:hidden;
+}
+
+.left{
+	float:left;
+	clear:left;
+	width:220px;
+	padding:0 30px;
+	text-align:center;
+}
+
+.right{
+	margin-left:300px;
+	padding:0 30px 0 0;
+	color:#9b2924;
+    line-height: 21px;    
+    font-family: Arial, Helvetica, Tahoma, Verdana,sans-serif;
+	font-size:16px;
+}
+
+.right > p,
+.footerText > p
+{
+	margin:0;
+    text-indent: 20px;
+    margin: 1px 0 0 0;
+    color:#9b2924;
+    line-height: 21px;    
+    font-size:16px;    
+	/* padding:0 0 15px; */
+}
+
+#progress{
+	color:#f00;
+	border:2px solid #f00;
+	line-height:22px;
+	text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 15px 20px;
+	margin:0 auto 20px;
+}
+
+#progress b{
+	font-size:25px;
+}
+
+.left img{
+	margin:5px auto;
+	padding:3px;
+	border:1px solid #fff;
+}
+
+ .member-list{
+ 	font-size:36px;
+	font-weight:bold;
+	color:#2f2483;
+	text-transform:uppercase;
+	/*font-family*/
+ }
+ 
+  .member-list p{
+  	line-height:33px;
+	margin:0;
+	padding:0 0 10px;
+  }
+  
+  .ticket{
+  	clear:both;
+	color:#f00;
+	font-size:32px;
+	margin:20px 0 20px 30px;
+  }
+  
+  .footer{
+    clear: both;
+    color: black;
+    font-size: 24px;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 20px 30px;
+  }
+  
+.footer a{
+	color:#fff;
+}
+	
+	  
+.footer a:hover{
+	color:#000;
+}
