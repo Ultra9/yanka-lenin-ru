@@ -509,7 +509,7 @@ h2.news-header
 {
 	padding:          0 20px;
 	margin-bottom:    1em;
-	border-left:      6px solid #FF831F;
-	background-color: #FFEDD7;
+	border-left:      6px solid #999;
+	background-color: #EEE;
 	overflow:         auto;
 }
