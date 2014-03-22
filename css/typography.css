@@ -7,7 +7,7 @@ body
 {
 	color:       #333;
 	line-height: 1.3;
-	font-size:   15px;
+	font-size:   16px;
 	min-width:   960px;
 	font-family: 'PT Sans', sans-serif;
 }
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 h1
 {
 	font-size: 2em;
-	margin:    1.4em 0 0.7em;
+	margin:    1em 0 0.7em;
 }
 
 h2
@@ -243,7 +243,7 @@ img.img-right
 .header-inner img
 {
 	display: block;
-	margin:  15px 0;
+	margin:  15px 0 25px;
 }
 
 .signature
@@ -281,6 +281,11 @@ blockquote p.poesy
 .mainpage-menu ul li
 {
 	margin: 0 0 1.2em 0;
+}
+
+.mainpage-menu ul li a
+{
+	color: whitesmoke;
 }
 
 .mainpage-menu-1
