@@ -62,7 +62,8 @@ a:focus
 ul, ol
 {
 	margin:       1em 0;
-	padding-left: 2em;
+	padding-left: 0;
+	list-style-position: inside;
 }
 
 ul ul, ol ol, ul ol, ol ul
@@ -89,16 +90,15 @@ blockquote p
 	color:      #555;
 }
 
-blockquote cite:before
+/*blockquote cite:before
 {
 	content: "— ";
-}
+}*/
 
 blockquote cite
 {
-	font-size:  0.9em;
-	color:      #666;
-	font-style: normal;
+	/*font-size:  0.9em;*/
+	color:      black;
 }
 
 q, cite
